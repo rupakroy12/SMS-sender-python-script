@@ -8,7 +8,7 @@ import csv
 def send_sms(number, message):
     url = "https://www.fast2sms.com/dev/bulk"
     params = {
-        'authorization': '8iQnCNvMcg69lHoyYfK2arVmOGUBtkAzjLRqPThd70W3bsuDXeUvWTbntzmrO5ARKHVcoQGZDLa49PFp',
+        'authorization': 'your api key goes here',
         'sender_id': 'FSTSMS',
         'message': message,
         'language': 'english',
