@@ -46,7 +46,7 @@ def read_file():
         for row in reader:
             num = row['Mobile Number']
 
-            #check for invalid numbers (length not equals 10, for INDIAn numbers)
+            #check for invalid numbers (length not equals 10, for INDIAN numbers)
             if (len(str(num)) is not 10):
                 print(f'Invalid Number : {num}')
                 invalid_contacts += 1
