@@ -1,6 +1,6 @@
 # SMS-sender-python-script
 This is a simple script which reads contacts from a csv file, sends your custom SMS to those numbers using FAST2SMS API and stores the http responses to a new csv file.
-i have also created a 4-digit OTP generator function in order to send OTP to the numbers. You can also send your custom sms using this script.
+I have also created a 4-digit OTP generator function in order to send OTP to the numbers. You can also send your custom sms using this script.
 
 For getting yor API key, register yourself in https://www.fast2sms.com
 (only for Indian numbers (+91) )
